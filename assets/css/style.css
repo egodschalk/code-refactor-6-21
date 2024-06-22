@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* styling of header background and fonts */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +16,7 @@ header {
     color: #ffffff;
 }
 
+/* Horiseon logo styling */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* nav bar font and positioning */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,12 +36,14 @@ header nav {
     margin-left: 25px;
 }
 
+/* appearance of links in nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
     margin-right: 20px;
 }
 
+/* sizing & positioning of picture block at top of page */
 figure {
     height: 800px;
     width: 100%;
@@ -48,23 +53,22 @@ figure {
     background-position: center;
 }
 
+/* sizing of picture */
 figure img {
     width: 100%;
     height: auto;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* sizing of content block for the company's services */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.functions {
+/* sizing and styling of blocks showcasing Horiseon's services */
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,29 +77,38 @@ p {
     color: #ffffff;
 }
 
-.functions img {
+/* height of images in the services blocks */
+.services img {
     max-height: 200px;
 }
 
+/* positioning of images in services blocks */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-.functions h2 {
+/* size and position of title text in services blocks */
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* size of all paragraph text on the page */
+p {
+    font-size: 16px;
+}
+
+/* positioning of images in services blocks */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-
+/* styling of the side block featuring the benefits of hiring Horiseon */
 aside {
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -105,33 +118,34 @@ aside {
     background-color: #2589bd;
 }
 
+/* color and position of text in benefits block */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* alignment of benefits title text */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* size and position of graphics in benefits block */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* center paragraph text in benefits block */
 .benefits p {
     text-align: center;
 }
 
+/* styling of page footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
