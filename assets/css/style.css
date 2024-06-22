@@ -61,6 +61,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .functions {
@@ -92,12 +93,9 @@ p {
 }
 
 
-
-
-
-
 aside {
     margin-right: 20px;
+    margin-top: 30px;
     padding: 20px;
     clear: both;
     float: right;
@@ -121,6 +119,10 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefits p {
+    text-align: center;
 }
 
 footer {
