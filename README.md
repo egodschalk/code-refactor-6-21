@@ -6,5 +6,7 @@ Horiseon's website explains the company's services and the benefits a client cou
 Deployed application can be found here: 
 https://egodschalk.github.io/code-refactor-6-21/
 
+(Note: I saw too late that the color contrast in the side section is not big enough. In order to fix this I would have changed the color to #317191)
+
 ![alt text](screenshot_top.png)
 ![alt text](screenshot_bottom.png)
